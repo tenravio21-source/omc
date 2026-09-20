@@ -1,0 +1,99 @@
+# --- Folders and Blobs ---
+# Ignore compiled binaries and object files
+*.o
+*.so
+*.bin
+*.exe
+
+# --- Editor & IDE State ---
+# Neovim / NvChad / LazyVim state (Keep your lua configs, ignore the data)
+nvim/undo/
+nvim/view/
+nvim/shada/
+nvim/swap/
+NvChad/undo/
+NvChad/view/
+.vscode/
+.idea/
+
+# --- System & Tool State ---
+# Ignore dconf database (binary file, better to manage via scripts)
+dconf/
+
+# Language server/tooling cache
+node_modules/
+.venv/
+__pycache__/
+target/ # Rust builds
+.direnv/
+.mise/
+go/
+ibus/
+ibus/bus/
+obs-studio/
+
+# --- Shell & Terminal History & Sessions ---
+# Don't track your private command history or active sessions
+nushell/history.txt
+nushell/completer/
+tmux/resurrect/
+tmux/plugins/
+zsh/.zsh_history
+bash/.bash_history
+fish/fish_history
+
+# --- App Specific Blobs & Caches ---
+# Browsers and heavy apps store massive caches, crash dumps, and local state here
+chromium/
+brave/
+BraveSoftware/
+google-chrome/
+google-chrome-beta/
+google-chrome-unstable/
+microsoft-edge/
+microsoft-edge-dev/
+vivaldi/
+vivaldi-snapshot/
+
+# Obsidian / Notes
+obsidian/.obsidian/workspace.json
+obsidian/.obsidian/workspace
+obsidian/.obsidian/cache/
+obsidian/.obsidian/plugins/  # Uncomment if you don't want to track installed plugins
+
+# Other Apps
+Typora/
+Pinta/
+xournalpp/cache/
+discord/
+vesktop/
+spotify/
+gtk-3.0/Bookmarks     # Local file paths often change per machine
+gtk-4.0/Bookmarks
+
+# --- Fonts & Assets ---
+# Usually better to install these via package manager
+#*.ttf
+#*.otf
+#*.woff
+#*.woff2
+
+# --- Backups & Temps ---
+# Ignore backups and temp files
+*.bak
+*~
+*.swp
+*.swo
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Secrets ---
+# Never track API keys or private tokens
+.env
+credentials
+*.pem
+*.key
+*.token
+secrets.*

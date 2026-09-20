@@ -1,0 +1,17 @@
+
+fork = false
+frame = "none"
+idle = true
+maximized = false
+no-multigrid = false
+srgb = false
+tabs = true
+theme = "auto"
+title-hidden = true
+vsync = true
+wsl = false
+
+
+[font]
+normal = "Maple Mono NF"
+size = 11.2

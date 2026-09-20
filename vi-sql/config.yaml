@@ -1,0 +1,25 @@
+version: 0.2.0
+log:
+    path: /tmp/vi-sql.log
+    level: info
+    prettyPrint: true
+editor:
+    command: ""
+    env: EDITOR
+    enabled: false
+ui:
+    schemaPanelWidth: 30
+    vimMode: true
+mcp:
+    enabled: false
+    port: 0
+    allowRead: false
+    allowWrite: false
+security:
+    method: keyring
+showConnectionPage: true
+currentConnection: ""
+connections: []
+styles:
+    nerdFont: true
+    currentStyle: default.yaml

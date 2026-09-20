@@ -1,0 +1,243 @@
+{
+  "name": "flow-icons",
+  "displayName": "Flow Icons",
+  "description": "🌼 A brand new premium icon pack for VSCode",
+  "version": "2.0.9",
+  "author": "thang-nm",
+  "publisher": "thang-nm",
+  "homepage": "https://flow-icons.pages.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thang-nm/Flow-Icons"
+  },
+  "engines": {
+    "vscode": "^1.75.1"
+  },
+  "icon": "logo.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "flow-icons",
+    "icon-theme",
+    "theme",
+    "glass",
+    "perfect",
+    "pixel-perfect",
+    "perfect-pixel",
+    "vscode",
+    "vscode-theme",
+    "vscode-icons",
+    "vscode-extension"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/main.js",
+  "browser": "./out/browser.js",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "flow-dim",
+        "label": "Flow Dim",
+        "path": "./dim.json"
+      },
+      {
+        "id": "flow-deep",
+        "label": "Flow Deep",
+        "path": "./deep.json"
+      },
+      {
+        "id": "flow-dawn",
+        "label": "Flow Dawn",
+        "path": "./dawn.json"
+      },
+      {
+        "id": "flow-you",
+        "label": "Flow You",
+        "path": "./you.json"
+      }
+    ],
+    "configuration": {
+      "title": "Flow Icons",
+      "properties": {
+        "flow-icons.licenseKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your license key"
+        },
+        "flow-icons.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hides folder arrows in the explorer"
+        },
+        "flow-icons.hidesExplorerFolders": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hides folder icons in the explorer"
+        },
+        "flow-icons.specificFolders": {
+          "type": "boolean",
+          "default": true,
+          "description": "Use specific icons for folders based on names"
+        },
+        "flow-icons.activeIconPack": {
+          "type": "object",
+          "default": {},
+          "description": "Toggle icons for specific packages"
+        },
+        "flow-icons.files.associations": {
+          "type": "object",
+          "default": {},
+          "description": "Set custom file icon associations"
+        },
+        "flow-icons.folders.associations": {
+          "type": "object",
+          "default": {},
+          "description": "Set custom folder icon associations"
+        },
+        "flow-icons.languages.associations": {
+          "type": "object",
+          "default": {},
+          "description": "Set custom language icon associations"
+        },
+        "flow-icons.files.replacements": {
+          "type": "object",
+          "default": {},
+          "description": "Replace file icons with other icons"
+        },
+        "flow-icons.folders.replacements": {
+          "type": "object",
+          "default": {},
+          "description": "Replace folder icons with other icons"
+        },
+        "flow-icons.you.colors": {
+          "type": "object",
+          "default": {},
+          "description": "Color palette for Flow You icon theme"
+        },
+        "flow-icons.folderChevron": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use chevron icons instead of folder icons in the explorer"
+        },
+        "flow-icons.folderColor": {
+          "type": "string",
+          "enum": [
+            "gray",
+            "blue",
+            "brown",
+            "green",
+            "lime",
+            "orange",
+            "pink",
+            "purple",
+            "red",
+            "sky",
+            "teal",
+            "yellow"
+          ],
+          "enumItemLabels": [
+            "Gray",
+            "Blue",
+            "Brown",
+            "Green",
+            "Lime",
+            "Orange",
+            "Pink",
+            "Purple",
+            "Red",
+            "Sky",
+            "Teal",
+            "Yellow"
+          ],
+          "default": "gray",
+          "description": "Your favorite folder color"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "flow-icons.enterLicenseKey",
+        "title": "Flow Icons: Enter License Key",
+        "enablement": "!isWeb"
+      },
+      {
+        "command": "flow-icons.downloadIcons",
+        "title": "Flow Icons: Download Icons",
+        "enablement": "!isWeb"
+      },
+      {
+        "command": "flow-icons.rebuildIcons",
+        "title": "Flow Icons: Rebuild Icons",
+        "enablement": "!isWeb"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run release:publish && npm run vscode:build",
+    "vscode:pack": "vsce package --no-dependencies -o dist",
+    "release:prepare": "npm run icons:cleanup && npm run icons:generate && npm run icons:check",
+    "release:publish": "npm run icons:vscode-demo && npm run release:prepare && tsx scripts/release_publish.ts",
+    "release:zip": "npm run icons:vscode-all && npm run release:prepare && /bin/bash scripts/release_zip.sh",
+    "icons:vscode-demo": "export FLOW=DEMO && tsx scripts/icons_build.ts",
+    "icons:vscode-all": "export FLOW=PREMIUM && tsx scripts/icons_build.ts",
+    "icons:sketch": "/bin/bash scripts/icons_sketch.sh",
+    "icons:optimize": "tsx scripts/icons_optimize.ts",
+    "icons:generate": "tsx scripts/icons_generate.ts",
+    "icons:export": "tsx scripts/icons_export.ts",
+    "icons:export-all": "npm run icons:sketch && npm run icons:optimize && npm run icons:generate",
+    "icons:cleanup": "tsx scripts/icons_cleanup.ts",
+    "icons:check": "npm run lint && tsx scripts/icons_check.ts",
+    "icons:diff": "tsx scripts/icons_diff.ts",
+    "vscode:link": "npm run icons:vscode-all && tsx scripts/icons_vsc_link.ts",
+    "export:banner": "/bin/bash scripts/export_banner.sh",
+    "export:sprite": "tsx scripts/export_sprite.ts",
+    "export:icons": "tsx scripts/export_icons.ts",
+    "export:packs": "tsx scripts/export_packs.ts",
+    "export:alternatives": "tsx scripts/export_alternatives.ts",
+    "export:repos": "tsx scripts/export_repos.ts",
+    "export:statistics": "tsx scripts/export_statistics.ts",
+    "export:all": "npm run icons:vscode-all && npm run export:banner && npm run export:sprite && npm run export:icons && npm run export:packs && npm run export:alternatives && npm run export:repos && npm run export:statistics",
+    "next:color": "tsx scripts/next_color.ts",
+    "paddle": "node scripts/paddle.js",
+    "vscode:build": "node vscode/vscode.mjs",
+    "zed:dev": "tsx zed/flow.ts",
+    "zed:build": "node zed/src/zed.mjs",
+    "zed:pack": "tsx scripts/zed_pack.ts",
+    "pretest": "npm run vscode:build && npm run lint",
+    "lint": "eslint common && eslint scripts && eslint vscode && eslint zed",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.75.1",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "color-blend": "^4.0.0",
+    "esbuild": "^0.28.1",
+    "eslint": "^9.16.0",
+    "puppeteer": "^24.8.0",
+    "sharp": "^0.33.5",
+    "svgo": "^4.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "jsonc-parser": "^3.3.1"
+  }
+}

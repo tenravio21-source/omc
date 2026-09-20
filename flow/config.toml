@@ -1,0 +1,10 @@
+# flow configuration
+# https://github.com/programmersd21/flow
+
+refresh   = "100ms"     # sampling interval (e.g. "100ms", "250ms", "1s")
+history   = 60       # seconds of sparkline history retained
+theme     = "default"
+unit      = "auto"     # auto | kb | mb | gb
+interface = "auto"     # auto or interface name (e.g. "eth0", "wlan0")
+no_color  = false
+bits      = false       # display throughput in bits/sec instead of bytes/sec

@@ -1,0 +1,50 @@
+[ui]
+show_bars = false
+show_hidden = false
+
+[theme]
+background = "rgb(30,30,46)"
+foreground = "rgb(198,208,245)"
+selection = "rgb(250,179,135)"
+directory = "rgb(180,184,254)"
+file = "rgb(198,208,245)"
+bar = "rgb(137,180,250)"
+bar_bg = "rgb(92,108,124)"
+percent_value = "rgb(198,208,245)"
+percent_value_selected = "rgb(255,255,255)"
+size_value = "rgb(198,208,245)"
+size_value_selected = "rgb(255,255,255)"
+tile_palette = [
+    "rgb(245,224,220)",
+    "rgb(242,205,205)",
+    "rgb(245,194,231)",
+    "rgb(203,166,247)",
+    "rgb(243,139,168)",
+    "rgb(235,160,172)",
+    "rgb(250,179,135)",
+    "rgb(249,226,175)",
+    "rgb(166,227,161)",
+    "rgb(148,226,213)",
+    "rgb(137,180,250)",
+    "rgb(116,199,236)",
+    "rgb(177,190,254)",
+    "rgb(146,199,248)",
+    "rgb(185,123,255)",
+    "rgb(255,121,198)",
+    "rgb(255,195,160)",
+    "rgb(255,255,255)",
+    "rgb(92,108,124)",
+    "rgb(17,17,27)",
+]
+
+[sorting]
+mode = "size_desc"
+
+[scan]
+follow_symlinks = false
+max_depth = 0
+exclude_patterns = []
+count_hard_links_once = false
+one_file_system = false
+exclude_caches = false
+exclude_kernfs = false

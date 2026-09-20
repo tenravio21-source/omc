@@ -1,0 +1,7 @@
+[[plugin.deps]]
+use = "Mirsmog/real-icons"
+rev = "d9c01a3"
+hash = "3899d518e30c79ad044d1baf59340d70"
+
+[flavor]
+deps = []

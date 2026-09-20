@@ -1,0 +1,4 @@
+[[mgr.prepend_keymap]]
+on = [ "g", "P" ]
+run = "plugin real-icons -- packs"
+desc = "Choose icon pack"

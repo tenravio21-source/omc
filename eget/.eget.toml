@@ -1,0 +1,26 @@
+[global]
+upgrade = true
+target = "~/.cli/bin"
+
+["Bahaaio/pomo"]
+asset_filters = ["tar.gz"]
+
+["alexpasmantier/television"]
+asset_filters = ["gnu.tar.gz"]
+
+["legostin/cull"]
+asset_filters = ["linux_amd64.tar.gz"]
+
+["mikalv/mcdu"]
+asset_filters = ["gnu.tar.gz"]
+
+["superstarryeyes/bit"]
+["bjarneo/cliamp"]
+["Dr-Noob/cpufetch"]
+["zyedidia/eget"]
+["mrkatebzadeh/darya"]
+["andrewmd5/dawn"]
+["tuna-f1sh/cyme"]
+["maaslalani/sheets"]
+["SurgeDM/surge"]
+["thewizardshell/froggit"]

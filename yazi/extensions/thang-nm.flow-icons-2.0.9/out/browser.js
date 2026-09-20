@@ -1,0 +1,1 @@
+import{window as n,workspace as t}from"vscode";function p(o){o.subscriptions.push(t.onDidChangeConfiguration(e=>{e.affectsConfiguration("flow-icons")&&n.showErrorMessage("Flow Icons: Web doesn't support advanced options at the moment.")}))}var c=()=>{};export{p as activate,c as deactivate};
