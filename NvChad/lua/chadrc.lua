@@ -7,7 +7,7 @@ local M = {}
 
 M.base46 = {
 	BlinkCmpGhostText = { fg = "#565f83", italic = true },
-	theme = "tokyodark",
+	theme = "tokyonight",
 
 	hl_override = {
 		Comment = { italic = true },

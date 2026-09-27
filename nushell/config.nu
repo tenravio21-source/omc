@@ -21,3 +21,4 @@ source ~/.zoxide.nu
 source ./just.nu
 
 source ./alias.nu
+source "~/.cargo/env.nu"

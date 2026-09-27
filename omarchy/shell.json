@@ -61,6 +61,10 @@
     "lock": 300,
     "screensaver": 150
   },
-  "plugins": [],
+  "plugins": [
+    {
+      "id": "omarchy-resizeable.resizeable"
+    }
+  ],
   "version": 1
 }
