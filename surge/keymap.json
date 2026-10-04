@@ -12,6 +12,12 @@
       ],
       "help": "add from clipboard"
     },
+    "AssignCategory": {
+      "keys": [
+        "c"
+      ],
+      "help": "assign category"
+    },
     "BatchImport": {
       "keys": [
         "b",
@@ -21,7 +27,8 @@
     },
     "CategoryFilter": {
       "keys": [
-        "c"
+        "C",
+        "shift+c"
       ],
       "help": "category"
     },
