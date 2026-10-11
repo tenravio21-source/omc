@@ -8,6 +8,9 @@ local M = {}
 M.base46 = {
 	BlinkCmpGhostText = { fg = "#565f83", italic = true },
 	theme = "tokyonight",
+	transparent_background = true,
+	transparency = true,
+	transparent_window = true,
 
 	hl_override = {
 		Comment = { italic = true },
