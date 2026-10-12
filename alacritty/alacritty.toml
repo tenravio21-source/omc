@@ -7,9 +7,9 @@ TERM = "xterm-256color"
 osc52 = "CopyPaste"
 
 [font]
-normal = { family = "Maple Mono NF" }
-bold = { family = "Maple Mono NF" }
-italic = { family = "Maple Mono NF" }
+normal = { family = "Victor Mono" }
+bold = { family = "Victor Mono" }
+italic = { family = "Victor Mono" }
 size = 9
 
 [window]
