@@ -7,7 +7,7 @@ local M = {}
 
 M.base46 = {
 	BlinkCmpGhostText = { fg = "#565f83", italic = true },
-	theme = "gruvbox",
+	theme = "tokyodark",
 	transparent_background = true,
 	transparency = true,
 	transparent_window = true,
