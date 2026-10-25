@@ -78,6 +78,10 @@ gtk-4.0/Bookmarks
 #*.woff
 #*.woff2
 
+mozilla/
+git/config
+mozilla/firefox/
+
 # --- Backups & Temps ---
 # Ignore backups and temp files
 *.bak

@@ -29,3 +29,5 @@
 [user]
 	name = rio ten
 	email = ravioten05@gmail.com
+[credential]
+	helper = store
