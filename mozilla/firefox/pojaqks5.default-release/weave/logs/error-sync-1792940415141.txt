@@ -1,0 +1,204 @@
+1792939915688	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1792939915716	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1792939920299	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939920299	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939920331	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1792939920370	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939921123	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939921597	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939921670	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1792939921670	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1792939921671	FirefoxAccounts	DEBUG	fxa_status received
+1792939921671	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=, context=oauth_webchannel_v1, pairing=false
+1792939922907	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939933331	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939933602	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1792939933602	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1792939933603	FirefoxAccounts	DEBUG	fxa_status received
+1792939933603	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=true
+1792939933639	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1792939933639	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1792939933640	FirefoxAccounts	DEBUG	fxa_status received
+1792939933640	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=true
+1792939941603	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_preferences
+1792939941604	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_preferences
+1792939941675	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939942012	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939942013	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939942013	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939942013	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939942048	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939942570	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792939998613	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1792939998614	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1792939998615	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1792939998615	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1792939998617	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1792939998901	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1792939999170	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939999355	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939999516	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792939999544	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940000428	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1792940000429	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1792940000429	FirefoxAccounts	DEBUG	fxa_status received
+1792940000429	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=, context=, pairing=false
+1792940001122	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940001138	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1792940001138	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1792940001138	FirefoxAccounts	DEBUG	fxa_status received
+1792940001138	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=true
+1792940001140	Sync.Engine.History.Tracker	WARN	Attempted to add undefined ID to tracker
+1792940001192	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940001229	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940001374	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_supplicant_metadata
+1792940001375	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_supplicant_metadata
+1792940001375	FirefoxAccounts	DEBUG	Pairing command fxaccounts:pair_supplicant_metadata received
+1792940006507	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_authorize
+1792940006508	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_authorize
+1792940006508	FirefoxAccounts	DEBUG	Pairing command fxaccounts:pair_authorize received
+1792940006514	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/account/scoped-key-data
+1792940006514	Services.Common.RESTRequest	DEBUG	POST Length: 136
+1792940006852	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/account/scoped-key-data 200
+1792940006852	Hawk	DEBUG	(Response) /account/scoped-key-data: code: 200 - Status text: 
+1792940006853	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -853
+1792940006866	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/authorization
+1792940006867	Services.Common.RESTRequest	DEBUG	POST Length: 920
+1792940007024	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940007205	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/authorization 200
+1792940007206	Hawk	DEBUG	(Response) /oauth/authorization: code: 200 - Status text: 
+1792940007206	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -206
+1792940008146	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_heartbeat
+1792940008147	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_heartbeat
+1792940008147	FirefoxAccounts	DEBUG	Pairing command fxaccounts:pair_heartbeat received
+1792940009258	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_heartbeat
+1792940009259	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_heartbeat
+1792940009259	FirefoxAccounts	DEBUG	Pairing command fxaccounts:pair_heartbeat received
+1792940010259	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_heartbeat
+1792940010260	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_heartbeat
+1792940010260	FirefoxAccounts	DEBUG	Pairing command fxaccounts:pair_heartbeat received
+1792940010290	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940010437	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:pair_complete
+1792940010437	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:pair_complete
+1792940010437	FirefoxAccounts	DEBUG	Pairing command fxaccounts:pair_complete received
+1792940011262	FirefoxAccounts	TRACE	observed topic=push-message, data=chrome://fxa-device-update, subject=[xpconnect wrapped nsISupports]
+1792940011262	FirefoxAccounts	TRACE	FxAccountsPushService _onPushMessage
+1792940011262	FirefoxAccounts	DEBUG	push command: fxaccounts:device_connected
+1792940011262	FirefoxAccounts	INFO	fetching updated device list
+1792940011272	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1791125611268
+1792940011858	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1791125611268 200
+1792940011859	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1791125611268: code: 200 - Status text: 
+1792940011861	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -859
+1792940011861	FirefoxAccounts	INFO	Got new device list: 87d88fe57ee22ffc99aaedc3d1be9058, dda9c9a28a3c421ba95e0f5039899cca
+1792940011864	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1792940011865	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1792940011866	FirefoxAccounts	TRACE	Our push subscription looks OK
+1792940011866	FirefoxAccounts	INFO	updating the cache
+1792940037226	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940037512	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1792940037512	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1792940037512	FirefoxAccounts	DEBUG	fxa_status received
+1792940037512	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=, context=, pairing=false
+1792940142486	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940142531	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1792940142636	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1792940142636	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1792940142636	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1792940142636	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1792940142637	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1792940142948	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1792940144131	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1792940144186	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940144282	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940144339	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940144350	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940144364	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940164154	Sync.RemoteTabs	INFO	Generating tab list with filter
+1792940164158	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1792940167089	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940167643	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940167719	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940170008	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940175181	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940176417	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940189962	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940212284	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940239025	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940244368	FirefoxAccounts	ERROR	Pairing channel error: Error: WebSocket unexpectedly closed(resource://gre/modules/FxAccountsPairingChannel.sys.mjs:3599:20) JS Stack trace: FxAccountsPairingChannel</_setupListeners/<@FxAccountsPairingChannel.sys.mjs:3599:20
+1792940303007	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940318224	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1792940413187	Sync.RemoteTabs	INFO	Doing a tab sync.
+1792940413187	Sync.Service	DEBUG	User-Agent: Firefox/158.0.1 (Linux x86_64) FxSync/1.160.0.20261020085820.desktop
+1792940413187	FirefoxAccounts	INFO	fetching updated device list
+1792940413187	Sync.Service	INFO	Starting sync at 2026-10-25 20:30:13 in browser session bMmgGJcLNsl_
+1792940413188	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1792940413195	Sync.Status	INFO	Resetting Status.
+1792940413195	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1792940413195	Sync.RemoteTabs	INFO	Generating tab list with filter
+1792940413215	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1792940413216	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1792940413218	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1792940413218	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1792940413219	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1792940413247	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1792940413252	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1791126013213
+1792940413597	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1792940413666	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/291754944/info/collections
+1792940413667	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/291754944/info/configuration
+1792940413668	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940413738	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1791126013213 200
+1792940413738	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1791126013213: code: 200 - Status text: 
+1792940413738	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -738
+1792940413739	FirefoxAccounts	INFO	Got new device list: 87d88fe57ee22ffc99aaedc3d1be9058, dda9c9a28a3c421ba95e0f5039899cca
+1792940413745	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1792940413745	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1792940413746	FirefoxAccounts	TRACE	Our push subscription looks OK
+1792940413746	FirefoxAccounts	INFO	updating the cache
+1792940414041	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/291754944/info/configuration
+1792940414041	Sync.Service	DEBUG	Fetching global metadata record
+1792940414041	Sync.Service	DEBUG	Weave Version: 1.160.0 Local Storage: 5 Remote Storage: 5
+1792940414041	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1792940414041	Sync.Service	INFO	Testing info/collections: {"bookmarks":1792940018.93,"passwords":1792939881.8,"prefs":1792939881.13,"tabs":1792940018.05,"forms":1792939885.84,"history":1792940019.66,"meta":1792939887.79,"crypto":1792939877.52,"clients":1792940016.96}
+1792940414041	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1792939877.52
+1792940414042	Sync.Synchronizer	DEBUG	Refreshing client list.
+1792940414042	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1792940414044	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940414323	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/291754944/storage/clients?full=1&limit=1000
+1792940414329	Sync.Engine.Clients	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 1 reconciled.
+1792940414330	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1792940414330	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1792940414330	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1792940414332	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1792940414334	Sync.SyncScheduler	DEBUG	Client count: 1 -> 2
+1792940414338	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1792940414341	Sync.Synchronizer	INFO	Syncing specified engines: ["tabs"]
+1792940414366	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1792940414367	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1792940414367	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1792940414382	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940414758	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/291754944/storage/tabs?newer=1792939915.44&full=1&limit=1000
+1792940414762	Sync.Engine.Tabs	INFO	inserting tab for device 87d88fe57ee22ffc99aaedc3d1be9058, last modified at 1792940018050
+1792940414774	Sync.Engine.Tabs	INFO	removed 0 stale clients (threshold was 1777387915440)
+1792940414775	Sync.Engine.Tabs	INFO	deleted 0 pending tab closures because they were not in the new tabs
+1792940414775	Sync.Engine.Tabs	INFO	deleted 0 records because they timed out
+1792940414777	Sync.Engine.Tabs	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1792940414777	Sync.Engine.Tabs	DEBUG	Updating last sync to 1792940018.05
+1792940414782	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1792940414782	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1792940414785	Sync.Engine.Tabs	INFO	Posting 1 records of 1623 bytes with batch=true
+1792940414786	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1792940414787	Sync.Collection	DEBUG	POST Length: 1623
+1792940415113	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/291754944/storage/tabs?batch=true&commit=true
+1792940415115	Sync.Engine.Tabs	INFO	sync uploaded 1 records
+1792940415115	Sync.Engine.Tabs	DEBUG	Updating last sync to 1792940414.96
+1792940415128	Sync.RemoteTabs	INFO	Generating tab list with filter
+1792940415129	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1792940415129	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1792940415129	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1792940415129	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1792940415130	Sync.Synchronizer	INFO	Sync completed at 2026-10-25 20:30:15 after 1.94 secs.
+1792940415130	Sync.Declined	DEBUG	Handling remote declined: []
+1792940415131	Sync.Declined	DEBUG	Handling local declined: []
+1792940415131	Sync.Declined	DEBUG	Declined changed? false
+1792940415131	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1792940415133	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
